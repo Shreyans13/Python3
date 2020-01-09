@@ -1,6 +1,10 @@
 print("Hello python interpreter")
 
 print()
+print ("import this")
+import this
+
+print()
 a='I told you my friend, "Phython is my favourite language".'
 print(a)
 b="The language 'python' is named after Monty Python, not the snake."
@@ -128,3 +132,70 @@ print("\ttype(13) is int = ",type(13) is int)
 print("\ttype('17') is int = ",type('17') is int)
 print("\ttype(13) is not int = ",type(13) is not int)
 print("\ttype('17') is not int = ",type('17') is not int)
+
+print()
+print ("Lists")
+programmingLanguages=['C','C++','JAVA','PYTHON','HTML3','CSS','JAVASCRIPT','NODE-JS']
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print ("\tprogrammingLanguages[3] = ",programmingLanguages[3])
+print ("\tprogrammingLanguages[3].title() = ",programmingLanguages[3].title())
+print()
+message=f'My favourite programming language is {programmingLanguages[3]}.'
+print ("\tmessage=f'My favourite programming language is {programmingLanguages[3]}.'")
+print ("\tmessage = ",message)
+print()
+programmingLanguages[5]='CSS3'
+print ("\tprogrammingLanguages[5]='CSS3'")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+programmingLanguages.append('REACT')
+print ("\tprogrammingLanguages.append('REACT')")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+programmingLanguages.insert(0,'ANGULAR-JS')
+print ("\tprogrammingLanguages.insert(0,'ANGULAR-JS')")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+del programmingLanguages[0]
+print ("\tdel programmingLanguages[0]")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+print ("\tprogrammingLanguages.pop() = ",programmingLanguages.pop())
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+print ("\tprogrammingLanguages.pop(7) = ",programmingLanguages.pop(7))
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+print ("\tprogrammingLanguages.remove('C') = ",programmingLanguages.remove('C'))#no function output here "None" is displayed
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+print ("\tTemporary sorting")
+print ("\tsorted(programmingLanguages) = ",sorted(programmingLanguages))#temporary sorting
+print()
+programmingLanguages.sort()
+print ("\tprogrammingLanguages.sort()")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+programmingLanguages.sort(reverse=True)
+print ("\tprogrammingLanguages.sort(reverse=True)")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+programmingLanguages.reverse()
+print ("\tprogrammingLanguages.reverse()")
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+print ("\tlen(programmingLanguages) = ",len(programmingLanguages))
+print ("\tprogrammingLanguages = ",programmingLanguages)
+print()
+
+
+
+
+
+
+
+
+
+
+
+
