@@ -80,7 +80,18 @@ print ("\t\t10 not in list2 = ",10 not in list2)
 
 print()
 print ("\tIdentity Operators")
-print("\t\ttype(13) is int = ",type(13) is int)
-print("\t\ttype('17') is int = ",type('17') is int)
-print("\t\ttype(13) is not int = ",type(13) is not int)
-print("\t\ttype('17') is not int = ",type('17') is not int)
+print ("\t\ttype(13) is int = ",type(13) is int)
+print ("\t\ttype('17') is int = ",type('17') is int)
+print ("\t\ttype(13) is not int = ",type(13) is not int)
+print ("\t\ttype('17') is not int = ",type('17') is not int)
+
+print()
+print ("\tSpecial assignment operator")
+print ("\t\tused to assign value in between different epressions")
+print (f"\t\tlist1 = {list1}")
+if (n:=len(list1)) > 0:
+	print(f"\tWalrus operater used {n}")
+
+if n:=len(list1) > 3:
+	print(f"\tWalrus operater used {n}")
+	
