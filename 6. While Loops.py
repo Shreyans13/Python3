@@ -13,7 +13,7 @@ print ("\tEnter the users press QUIT to exit")
 user = ""
 while user.lower() != 'quit':
     user = input("\t")
-    if user.lower() != 'quit': 
+    if user.lower() != 'quit':
         unconfirmed_users.append(user)
 print (f"\tUnconfirmed users = {unconfirmed_users}")
 while unconfirmed_users:
@@ -28,7 +28,7 @@ while illegal_user in confirmed_users:
     confirmed_users.remove(illegal_user)
 
 print (f"\tConfirmed Users = {confirmed_users}")
-
+shreyanssh
 print ("\tFilling a Dictionary with user input")
 database = {}
 
@@ -43,5 +43,4 @@ while poll:
     if entries.upper() == 'N':
         poll = False
 print ("\tDatabase complete")
-print (database)
-print ("Exit")
+print (f"\t{database}")
