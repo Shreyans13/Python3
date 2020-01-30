@@ -19,7 +19,9 @@ print ("\nModifying a list in the function")
 # Modifying the list in the function is permanent
 admin=[]
 print (f"\tBefore function call admin = {admin}")
-def confirmed_users(names,admin):
+def confirmed_users(
+    names,
+    admin):
     for name in names:
         admin.append(name)
 confirmed_users(usernames,admin)

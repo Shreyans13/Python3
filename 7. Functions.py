@@ -7,7 +7,9 @@ greet_user(input("\tEnter your name : ")) # Passing Function
 
 # Positional Arguments
 print()
-def describe_pet(animal_type, pet_name): # order matters in Positional Arguments
+def describe_pet(
+    animal_type,
+    pet_name): # order matters in Positional Arguments
     print (f"\n\tI have a {animal_type}")
     print (f"\tMy {animal_type}'s name is {pet_name.title()}")
 
@@ -35,7 +37,10 @@ print(get_formatted_name('Suraj', 'Kumar', 'Singh'))
 
 
 print (f"\tDictionary Builder")
-def build_dictionary(first_name, last_name, age = None):
+def build_dictionary(
+    first_name,
+    last_name,
+    age = None):
     person = {
     'name' : f"{first_name} {last_name}"
     }
