@@ -19,6 +19,7 @@ print(f"\tMy dog is {my_dog.age} is years old.")
 my_dog.roll_over()
 my_dog.sit()
 
+print()
 
 your_dog = Dog('Rusty', 5)
 print(f"\tMy dog is {your_dog.name}.")
