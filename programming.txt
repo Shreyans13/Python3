@@ -1,0 +1,4 @@
+I love programming.
+I love writing scripts.
+I love creating apps that can run in browser.
+I love creaing pages using Djanjo.
