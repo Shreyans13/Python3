@@ -17,3 +17,7 @@ print("DataTypes")
 print("type(13)",type(13))
 print("type('17')",type('17'))
 print("type(13.17)",type(13.17))
+
+
+# to run a file from idle
+# exec(open("file name here").read())
